@@ -3,9 +3,9 @@ About nionswift-video-capture
 
 Home: https://github.com/nion-software/nionswift-video-capture
 
-Package license: GPLv3
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Capture video from built-in camera using OpenCV.
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8854&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nionswift-video-capture-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda-forge-nionswift-video-capture-feedstock?branchName=master">
       </a>
     </td>
   </tr>
@@ -117,5 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@cmeyer](https://github.com/cmeyer/)
-* [@ericpre](https://github.com/ericpre/)
+* [@nion-gwyn](https://github.com/nion-gwyn/)
 
