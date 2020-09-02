@@ -10,18 +10,18 @@ source:
   sha256: dda3c816e615e2b5919271dfde04ff3713f419a35fac807d58e92ac2549de273
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - nionswift-instrumentation
     - opencv
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
