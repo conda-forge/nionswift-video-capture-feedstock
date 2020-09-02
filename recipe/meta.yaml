@@ -10,7 +10,7 @@ source:
   sha256: dda3c816e615e2b5919271dfde04ff3713f419a35fac807d58e92ac2549de273
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -29,7 +29,7 @@ test:
 
 about:
   home: "https://github.com/nion-software/nionswift-video-capture"
-  license: GPLv3
+  license: GPL-3.0-or-later
   license_family: GPL3
   license_file: LICENSE
   summary: "Capture video from built-in camera using OpenCV."
@@ -38,4 +38,4 @@ about:
 extra:
   recipe-maintainers:
     - cmeyer
-    - ericpre
+    - nion-gwyn
