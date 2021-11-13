@@ -1,18 +1,18 @@
 {% set name = "nionswift-video-capture" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.3" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: dda3c816e615e2b5919271dfde04ff3713f419a35fac807d58e92ac2549de273
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bb5ef4417ef9f55c4164359761230c06a03dc276b2d25e5d2dd439c181857372
 
 build:
-  number: 2
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -28,11 +28,11 @@ test:
     - nionswift_plugin.nionswift_video_capture
 
 about:
-  home: "https://github.com/nion-software/nionswift-video-capture"
+  home: https://github.com/nion-software/nionswift-video-capture
   license: GPL-3.0-or-later
   license_family: GPL3
   license_file: LICENSE
-  summary: "Capture video from built-in camera using OpenCV."
+  summary: Capture video from built-in camera using OpenCV.
   dev_url: https://github.com/nion-software/nionswift-video-capture
 
 extra:
