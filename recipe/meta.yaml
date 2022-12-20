@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - nionswift-instrumentation >=0.20.0,<0.21
+    - nionswift-instrumentation >=0.20.0,<0.22.0
     - opencv
     - python >=3.8
 
