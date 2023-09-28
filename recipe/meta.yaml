@@ -1,5 +1,5 @@
 {% set name = "nionswift-video-capture" %}
-{% set version = "0.2.5" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b08c8bd9c9d50056c75bae34216dae3e0107e6175579317cf7b6ada36e908b19
+  sha256: f284ef17b092c58295d5cf118f141e0c7d60c2dc9f970289d70494ff9183355e
 
 build:
   number: 0
@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
   run:
-    - nionswift-instrumentation >=0.20.0,<0.22.0
-    - opencv
-    - python >=3.8
+    - python >=3.9
+    - nionswift >=16.9.0,<17.0.0
+    - nionswift-instrumentation >=22.0.0,<23.0.0
 
 test:
   imports:
