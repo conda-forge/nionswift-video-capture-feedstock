@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
   run:
-    - nionswift-instrumentation >=0.20.0,<0.22.0
-    - opencv
-    - python >=3.8
+    - python >=3.9
+    - nionswift >=16.9.0,<17.0.0
+    - nionswift-instrumentation >=22.0.0,<23.0.0
 
 test:
   imports:
