@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.11
+    - setuptools
   run:
-    - python >=3.9
-    - nionswift >=16.9.0,<17.0.0
-    - nionswift-instrumentation >=22.0.0,<23.0.0
+    - python >=3.11
+    - nionswift >=16.12,<17.0
+    - nionswift-instrumentation >=23.1,<24.0
 
 test:
   imports:
