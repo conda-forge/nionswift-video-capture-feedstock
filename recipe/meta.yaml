@@ -22,8 +22,8 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - nionswift >=16.12,<17.0
-    - nionswift-instrumentation >=23.1,<24.0
+    - nionswift >=16.15,<17.0
+    - nionswift-instrumentation >=23.4,<24.0
 
 test:
   requires:
