@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "nionswift-video-capture" %}
-{% set version = "2.7.1" %}
+{% set version = "2.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: efdcd05dcb8fde69157e5b001eceebf0b10df7da34752e9686da8f0f6c8da0c7
+  sha256: 28c18251c0a0298f527368ffee306cda5f32d66788e2659880b664d668e382fe
 
 build:
   number: 0
